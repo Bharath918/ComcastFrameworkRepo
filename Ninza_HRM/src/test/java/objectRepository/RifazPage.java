@@ -12,5 +12,20 @@ public class RifazPage {
 		return login;
 	}
 	
+	@FindBy(id="inputPassword")
+	private WebElement password;
+
+	public WebElement getPassword() {
+		return password;
+	}
+	@FindBy(xpath = "//button[contains(text(),'Sign in')]")
+	private WebElement signinbtn;
+
+	public WebElement getSigninbtn() {
+		return signinbtn;
+	}
+	
+	
+	
 	
 }
