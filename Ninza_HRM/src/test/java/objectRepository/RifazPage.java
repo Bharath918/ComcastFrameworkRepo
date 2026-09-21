@@ -23,6 +23,7 @@ public class RifazPage {
 
 	public WebElement getSigninbtn() {
 		return signinbtn;
+		
 	}
 	
 	
