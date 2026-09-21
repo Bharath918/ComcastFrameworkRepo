@@ -21,10 +21,6 @@ public class RifazPage {
 	@FindBy(xpath = "//button[contains(text(),'Sign in')]")
 	private WebElement signinbtn;
 
-	public WebElement getSigninbtn() {
-		return signinbtn;
-		
-	}
 	
 	
 	
