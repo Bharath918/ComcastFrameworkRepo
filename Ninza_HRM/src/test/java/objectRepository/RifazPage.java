@@ -12,5 +12,14 @@ public class RifazPage {
 		return login;
 	}
 	
+	@FindBy(id="inputPassword")
+	private WebElement password;
+
+	public WebElement getPassword() {
+		return password;
+	}
+	
+	
+	
 	
 }
