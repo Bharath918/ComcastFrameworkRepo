@@ -25,6 +25,15 @@ public class RifazPage {
 		return signinbtn;
 	}
 	
+	@FindBy(id = "request-demo")
+	private WebElement demobtn;
+
+	public WebElement getDemobtn() {
+		return demobtn;
+	}
+	
+	
+	
 	
 	
 	
